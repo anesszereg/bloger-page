@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.up{
+    background-image:url('./images/bg-pattern-intro-desktop.svg'), linear-gradient(to left,hsl(356, 100%, 66%),hsl(355, 100%, 74%) ) ;
+    /* background-color: hsl(356, 100%, 66%) ; */
+    width: auto;
+    height: 75vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    color: white;
+    border-bottom-left-radius: 100px ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.navbar{
+    padding: 20px 0;
+    top: 0;
+    margin: 20px 100px;
+    display: flex;
+    gap: 90px;
+    
+
+}
+#sel1{
+    border: none;
+    background: none;
+
+}
+#sel2{
+    border: none;
+    background: none;
+
+
+}
+#sel3{
+    border: none;
+    background: none;
+}
+select{
+    color: white;
+    outline: none;
+    font-size: 17px;
+    width: auto;
+}
+.centernav{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.rightnav{
+    padding: 10px;
+    margin-left: 200px;
+    display: flex;
+    gap: 10px;
+}
+.rightnav button{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    font-size: 20px;
+}
+.b2{
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    border-radius: 30px;
+    border: none ;
+    
+}
+.b1{
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background: none;
+}
+.leftnav{
+    padding: 10px;
+}
+.centerup{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.endup{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.endup button{
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.bb1{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    border: none;
+}
+.bb2{
+    background: hsl(356, 100%, 66%);
+    color: white;
+    /* border-color:white; */
+    border: 2px solid white;
+    outline: none;
+}
+
+.center{
+    color: hsl(208, 49%, 24%);
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    overflow: hidden;
+    
+}
+.left{
+    width: 800px;
+    margin-top: 50px;
+}
+.unleft{
+    width: 600px;
+}
+.center h1{
+    width: 350px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.right img{
+    height: 100vh;   
+}
+.leftup{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.leftdown{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.left p{
+    width: 500px;
+}
+.phone{
+    margin-top: 20px;
+    height: 60vh;
+    width: 100%;
+    background-color: hsl(206, 76%, 18%);
+    background-image: url('./images/bg-pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: inherit;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px ;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.right2 {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-right: 250px;
+}
+.left2 img{
+    height: 80vh;
+    margin: -45px 60px;
+}
+.laptop{
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.left3 img{
+    height: 100vh;
+    margin-left: -211px;
+
+}
+.right3{
+    margin-right: 100px;
+    width: 500px;
+    margin-top: 200px;
+    color: hsl(208, 49%, 24%);
+}
+
+
+.right3up{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 15px;      
+    margin-bottom: 30px;        
+}
+.right3down{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 15px; 
+    margin-top: 30px;             
+}
+.theend{
+    padding: 40px;
+    height: 45vh;
+    display: flex;
+    gap: 30px;
+    background-color:hsla(240, 10%, 16%, 0.836) ;
+    border-top-right-radius: 100px;
+}
+.icon{
+    padding: 10px;
+}
+.list{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.list b{
+    font-size: 18px;
+    margin-top: 30x;
+    
+}
+.list ul{
+ 
+     list-style: none;
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     gap: 10px;
+     padding: 10px;
+     font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
